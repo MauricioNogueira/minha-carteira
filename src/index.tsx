@@ -4,9 +4,11 @@ import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
 
+import Dasboard from './pages/Dashboard/index';
+
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <Dasboard />
   </React.StrictMode>,
   document.getElementById('root')
 );
